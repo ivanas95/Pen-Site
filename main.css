@@ -1,0 +1,478 @@
+/* ===== ROOT (ONLY GLOBALS) ===== */
+:root {
+  --blue: rgb(21, 82, 255);
+  font-family: "interstate-mono", monospace;
+  
+  font-size: 18px;
+}
+
+
+header {
+    margin-bottom: 3rem;
+}
+
+.header-top-space {
+    height: 130px;
+    border-bottom:3px solid var(--blue);
+    margin-bottom:0.5rem;
+}
+
+
+.header-top-space-edit {
+    height: 130px;
+    margin-bottom:0.5rem;
+}
+
+
+
+
+.header-all:hover .header-blue-text {
+    opacity: 1;
+    pointer-events: auto;
+    height:150px;
+    background-color: #0013ff;
+
+}
+
+.header-text {
+    color: white;
+    margin-left: 15%;
+    margin-top: 5.5%;
+}
+
+
+.header-all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
+
+
+
+
+.header-space {
+    height: 100px;
+}
+
+.header-blue-text {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+
+}
+
+
+
+
+
+/* ===== BASE ===== */
+.container,
+.containerBlue {
+  
+  max-width:1200px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.containerBlue {
+    background-color: #0013ff;
+}
+
+.container-blue-short {
+    background-color:#0013ff;
+    width:50%;
+    height:100%;
+    position:absolute;
+}
+.positioning{
+    position:relative;
+}
+
+.container-custom1 {
+  margin-left: 15%;
+}
+
+.container-custom2 {
+    margin:0;
+    padding:0;
+}
+
+
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.grid-2-3-1 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr 1fr 1fr;
+    margin-top: 7rem;
+}
+
+.grid-4-4 {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+}
+
+
+.grid-2-1-edit,
+.grid-2-1-edit2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 8.6rem;
+      z-index: 2;
+}
+
+.grid-2-1-edit2 {
+    margin-top: 2rem;
+}
+
+.grid-3-1-2 {
+        grid-template-columns: 3fr 1fr 2fr;
+        display: grid;
+        margin-top: 7rem;
+}
+
+p { margin: 0; }
+strong { font-weight: bolder; }
+
+.hidden-weight,
+.hidden-body,
+.hidden-brand,
+.hidden-closure,
+.hidden-colour,
+.hidden-feel,
+.hidden-grip,
+.hidden-griptype,
+.hidden-ink,
+.hidden-mm-scale,
+.hidden-results,
+.hidden-surface,
+.hidden-thicker,
+.hidden-thinner {
+    display:none;
+}
+
+.numberList,
+.optionList {
+  font-size: 2rem;
+  list-style: none;
+  
+}
+
+.number {
+    border-bottom:3px solid var(--blue);
+    line-height: 2.5rem;
+}
+
+.lineList {
+    margin-top: 2.3rem;
+    padding:0;
+    margin-left: 1rem;
+
+}
+
+.blueLine-vary1,
+.blueLine-vary2,
+.blueLine-vary3,
+.blueLine-vary4 {
+    margin-top: 5.6rem;
+    background-color: var(--blue);
+    width:100%;
+    list-style: none;
+
+                }
+    .blueLine-vary1 {
+        height: 2px;
+        margin-top: 0;
+    }
+    .blueLine-vary2 {
+        height: 3px;
+    }
+    .blueLine-vary3 {
+        height: 4px;
+    }
+    .blueLine-vary4 {
+        height: 5px;
+    }
+
+.blueLine-vertical1,
+.blueLine-vertical2 {
+    position: fixed;
+    top: 0;
+    left: 64%;
+    width: 3px;
+    background-color: var(--blue);
+    z-index: 3;
+}
+.blueLine-vertical1 {
+    height: 42%;
+
+}
+.blueLine-vertical2 {
+    top:71%;
+    height: 100%;
+    
+}
+
+.whiteLine1,
+.whiteLine2 {
+    position: fixed;
+    top: 70%;
+    background-color: white;
+    z-index: 3;
+    height:3px;
+}
+.whiteLine1 {
+    width:15%
+}
+
+.whiteLine2 {
+        width: 100%;
+    margin-left: 70.7%
+}
+
+.whiteLine3 {
+    position: fixed;
+    top: 16.5rem;
+    background-color: white;
+    z-index: 3;
+    height:3px;
+    width:35%;
+    left: 15%;
+}
+
+.choiceOption {
+    padding-bottom: 4rem;
+}
+.sub-choiceOption {
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.choiceOption-mm {
+    padding-bottom: 0.5rem;
+}
+
+.blueScroll {
+
+    height:100vh;
+    background-color: #0013ff;
+}
+
+
+a.underlineLink:link,
+a.underlineLink:hover,
+a.underlineLink:visited {
+
+    text-decoration: underline;
+    color:black;
+}
+a.blackLink:hover {
+
+color:black;
+text-decoration: none;
+
+}
+
+a.whiteLink:link,
+a.whiteLink:hover,
+a.whiteLink:visited {
+    color: white;
+}
+
+a:link {
+
+color:black;
+text-decoration: none;
+
+}
+
+a:visited {
+
+color:black;
+text-decoration: none;
+
+}
+
+a:hover {
+
+color:#0013ff;
+text-decoration: none;
+
+}
+
+
+/* ===== TYPOGRAPHY ===== */
+
+
+.title {
+  font-size: 2rem;
+}
+
+.title-white {
+    font-size: 5rem;
+    color: white;
+    line-height: 5rem;
+}
+
+.title-large {
+    font-size: 4rem;
+    line-height: 9rem;
+}
+
+.brand {
+    font-size: 1.5rem;
+}
+
+.subtitle,
+.breadcrumb {
+  font-size: 0.9rem;
+}
+
+.subtitle-white {
+    font-size: 2rem;
+    color: white;
+    padding-top: 5rem;
+    padding-left: 0.2rem;
+}
+
+.definition {
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}   
+
+.option {
+  font-size: 0.9rem;
+  padding-top: 9rem;
+}
+
+.toAppear {
+  font-size: 2rem;
+  margin-top: 38.6vh;
+  margin-left: 46vw;
+  line-height: 10vh;
+}
+
+.toAppear.large {
+  font-size: 10vh;
+  line-height: 15vh;
+}
+
+.toAppear.white { color: white; }
+
+.toAppear2 { color: black; }
+
+
+.widthList {
+  font-size: 2rem;
+  margin-top: 38.6vh;
+  margin-left: 46vw;
+  line-height: 3vh;
+}
+
+html,
+body {
+    margin:0;
+    padding: 0;
+}
+
+/* ===== BLUE LINES ===== */
+
+.blueLineMain {
+  width: 100%;
+  height: 75px;
+  background-color: var(--blue);
+  border-bottom: 3px solid var(--blue);
+}
+
+.blueLineTop,
+.blueLineBottom {
+  width: 3px;
+  background-color: var(--blue);
+  position: fixed;
+  margin-left: 46vw;
+}
+
+.blueLineTop {
+  height: 39vh;
+  top: -3px;
+}
+
+.blueLineBottom {
+  height: 34vh;
+  margin-top: 71.5vh;
+}
+
+
+/* ===== UNDERLINES ===== 
+[class^="blueUnderline"] {
+  width: 15vw;
+  height: 3px;
+  background-color: var(--blue);
+  position: fixed;
+  margin-left: 46.1vw;
+}
+*/
+
+/* ===== CLICK AREAS ===== */
+[class^="clickMe"] {
+  position: absolute;
+  background-color: black;
+  z-index: 3;
+  opacity: 0;
+  margin-left: 46vw;
+}
+
+/* Original variants preserved */
+.clickMeSurface { width: 10vw; height: 11vh; margin-top: -38vh; }
+.clickMeQualities { width: 16vw; height: 11vh; margin-top: -15vh; }
+
+.clickMeTrait1 { width: 10vw; height: 7vh; margin-top: -34vh; }
+.clickMeTrait2 { width: 10vw; height: 7vh; margin-top: -23vh; }
+.clickMeTrait3 { width: 16vw; height: 7vh; margin-top: -13vh; }
+
+/* Size overrides */
+.clickMeTrait1.large,
+.clickMeTrait2.large,
+.clickMeTrait3.large {
+  width: 18vw;
+}
+
+/* Height overrides */
+.clickMeTrait1.tall,
+.clickMeTrait2.tall,
+.clickMeTrait3.tall {
+  height: 11vh;
+}
+
+/* Visibility + special states */
+.visible { opacity: 100%; }
+
+.blueBg {
+  background-color: #0013ff;
+  z-index: -2;
+}
+
+/* ===== IMAGES ===== */
+.crop {
+  width: 100%;
+  height: 80%;
+  position: fixed;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
