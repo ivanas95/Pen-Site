@@ -45,13 +45,21 @@ body {
     grid-template-columns: 1fr 2fr 3fr 2fr 2fr;
     gap:0.5rem;
     max-height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 
 .breadcrumb {
     list-style: none;
     font-size: 0.8rem;
     line-height: 1.3rem;
+}
+
+.selection-row {
+    display:grid;
+    /* grid-template-columns:repeat(3, 1fr); */
+    grid-template-columns: 1fr 2fr 3fr repeat(2, 2fr);
+    gap:0.5rem;
+
 }
 
 li {
@@ -70,3 +78,6 @@ ul {
 
 p { margin: 0; }
 strong { font-weight: bolder; }
+
+
+
