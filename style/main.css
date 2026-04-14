@@ -21,6 +21,7 @@ body {
 
 main {
     height: 100%;
+    display: grid;
 }
 
 .container,
@@ -51,7 +52,7 @@ main {
     height: auto;
     grid-template-columns: 1fr 2fr 4fr 1fr 2fr;
     display: grid;
-    border-bottom:3px solid black;
+    border-bottom:2px solid black;
 }
 
 .header-alt {
@@ -66,7 +67,7 @@ main {
 .title {
     font-weight: bold;
     font-size:1.8rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 0.5rem;
 }
 
@@ -105,7 +106,7 @@ main {
 .border-right,
 .border-right-alt,
 .border-right-alt-alt {
-    border-right:3px solid black;
+    border-right:2px solid black;
     
 }
 
@@ -123,7 +124,7 @@ main {
 .col-2-2,
 .middle-format,
 .col-2-3 {
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
  
 }
 
@@ -141,21 +142,21 @@ main {
     padding-top: 0.5rem;
 }
 .bread-middle {
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     padding-top: 0.5rem;
 }
 
 .col-5,
 .col-5-edit,
 .col-5-edit-single {
-    border-left:3px solid black;
+    border-left:2px solid black;
     grid-column: 5;
     grid-row: 1 / span all;
 }
 
 .col-5-edit {
     grid-row: 1 / span 5;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 
 .col-5-edit-single {
@@ -163,15 +164,15 @@ main {
 }
 
 .col-3-4 {
-    border-bottom:3px solid black;
+    border-bottom:2px solid black;
     grid-column: 3 / span 2;
     grid-row: span all;
 }
 
 
 .sidebar-alt {
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .sidebar-format {
@@ -181,14 +182,14 @@ main {
 
 .sidebar-weights,
 .sidebar-weights-alt {
-    border-left: 3px solid black;
+    border-left: 2px solid black;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     font-size: 1.2rem;
 }
 
 .sidebar-weights-alt {
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     padding-top: 1.3rem;
 
 }
@@ -199,25 +200,25 @@ main {
 }
 
 .border-left {
-    border-left: 3px solid black;
+    border-left: 2px solid black;
 }
 
 .border-top {
-    border-top: 3px solid black;
+    border-top: 2px solid black;
 }
 
 .border-bottom {
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 
 .border-right-bottom {
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .border-right-top {
-    border-top: 3px solid black;
-    border-right: 3px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .description {
@@ -238,7 +239,17 @@ main {
 .image-placement {
     grid-row: 2 / 8;
     grid-column: 3;
-    border-right: 3px solid black;
+    border-right: 2px solid black;
+}
+
+
+.step {
+    display: none;
+    height: 100%;
+}
+
+.step:first-child {
+    display: block;
 }
 
 li {
@@ -257,7 +268,7 @@ ul {
 
 
 p { margin: 0; }
-strong { font-weight: bolder; }
+strong { font-weight: bold; }
 
 
 
